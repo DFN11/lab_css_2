@@ -6,12 +6,6 @@ html, body {
 	min-height: 100%;
 	background: #E32121;
 }
-.footer {
-	height: 55px;
-	background: #66C71A;
-	margin-top: -55px;
-	clear: left;
-}
 .header {
 	height: 110px;
 	background: #2344BA;
@@ -30,5 +24,10 @@ html, body {
 	content: "";
 	display: block;
 	height: 0;
-
+}
+.footer {
+	height: 55px;
+	background: #66C71A;
+	margin-top: -55px;
+	clear: both;
 }
