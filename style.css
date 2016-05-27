@@ -1,0 +1,34 @@
+html, body {
+	height: 100%;
+	margin: 0;
+}
+.container {
+	min-height: 100%;
+	background: #E32121;
+}
+.footer {
+	height: 55px;
+	background: #66C71A;
+	margin-top: -55px;
+	clear: left;
+}
+.header {
+	height: 110px;
+	background: #2344BA;
+}
+.navbar {
+	width: 220px;
+	background: #ECF63D;
+	float: left;
+	border: 10px solid white;
+}
+.content {
+	margin-left: 220px;
+}
+.container:after {
+	clear: both;
+	content: "";
+	display: block;
+	height: 0;
+
+}
